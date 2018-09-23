@@ -1,0 +1,17 @@
+ext {
+    androidMinSdkVersion = 15
+    androidTargetSdkVersion = 25
+    androidCompileSdkVersion = 25
+    androidBuildToolsVersion = "26.0.2"
+    androidVersionCode = 12
+    androidVersionName = "3.0.0"
+
+    //Dependencies
+    supportVersion = "25.4.0"
+
+    var = [
+            SupportV7              : "com.android.support:appcompat-v7:${supportVersion}",
+            SupportV4              : "com.android.support:support-v4:${supportVersion}",
+            Supportdesign            : "com.android.support:design:${supportVersion}",
+    ]
+}
